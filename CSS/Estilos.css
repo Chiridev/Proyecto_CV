@@ -1,6 +1,44 @@
-.cuerpo{
+#cuerpo{
     background-color: aquamarine;
     height: auto;
     width: auto;
+    padding: 1px 1px 1px 1px;
+   
+}
+#bar_sup{
+    background-color: blue;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    
 
+}
+h1{
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-decoration: underline;
+}
+#bar_lat{
+    background-color: blueviolet;
+    display: fixed;
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin: 0px 0px 0px 0px;
+
+}
+#experiencia{
+    background-color: purple;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 1% 10% 1% 10%;
+    width: 60%;
+    float: right;
+}
+#foto_perfil{
+    width: 99%;
+    height:auto;
+    border: solid 2px black;
+    box-shadow: 20px grey dotted;
+    align-items: center;
 }
