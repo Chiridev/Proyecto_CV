@@ -2,25 +2,34 @@
     background-color: aquamarine;
     height: auto;
     width: auto;
-    padding: 1px 1px 1px 1px;
+    padding: 2px 2px 2px 2px;
    
 }
+
 #bar_sup{
     background-color: blue;
     text-align: center;
     margin: 0px 0px 0px 0px;
+    justify-content: center;
+    float:right;
+    width: 80%;
+    align-items: center;
     
 
 }
 h1{
     background-color: white;
-    width: auto;
+    width: 50%;
     height: auto;
     text-decoration: underline;
+    border-radius: 12px;
+    margin: 0 auto;
+    
+
 }
 #bar_lat{
     background-color: blueviolet;
-    display: fixed;
+    display: sticky;
     float: left;
     height: 100%;
     width: 20%;
@@ -34,6 +43,7 @@ h1{
     padding: 1% 10% 1% 10%;
     width: 60%;
     float: right;
+    height: auto;
 }
 #foto_perfil{
     width: 99%;
@@ -41,4 +51,92 @@ h1{
     border: solid 2px black;
     box-shadow: 20px grey dotted;
     align-items: center;
+} 
+
+/*Funcion botonera*/
+
+.contenedor{
+    background-color: red; 
+    max-width: 120cm;
+    width:100%;
+    padding: 0px;
 }
+.contenedor .ul{
+    background-color: lightgray; 
+    width: 95%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+
+}
+/* .contendor */.li{ 
+     background-color:brown; 
+     border: 2px solid brown;
+     width: fit-content;
+    padding:1%;
+    margin:0 0 0 0;
+    transition: all .5s ease;
+    
+
+}
+.contenedor .li.activo{
+    background-color:lightseagreen;
+    height: fit-content;
+    border: 2px solid lightseagreen;
+    width: fit-content;
+    
+    
+    
+}
+.boton {
+    text-decoration: none;
+   
+}
+.li .boton.activo{
+    /* background-color: lightseagreen;
+    width: fit-content;
+    border-color: lightseagreen;
+    border-bottom: none; */
+    color:black;
+
+}
+.boton.activo h2{
+    padding: 0%;
+}
+.contenedor .subcontenedor{
+    background-color: lightseagreen; 
+    position: relative;
+    min-height: 10vh;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+   
+
+}
+.contenedor .bloque{
+   background-color: lightseagreen; 
+    padding: 1%;
+    margin-top: 0;
+    margin: 0;
+    position:absolute;
+    top: 1%;
+    opacity: 0;
+    transition: all .5s ease;
+    border-radius: 3px;
+   
+    
+}
+
+.contenedor .bloque.activo{
+    opacity: 1;
+    margin-top: 0;
+    padding-top: 0%;
+    
+    
+
+}
+
